@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cdash_column_left{
+  float:left;
+  width:75%;
+}
+
+.cdash_sidebar{
+  float:right;
+  padding:2%;
+  width:20%;
+}
+
+.cdash_sidebar h2{
+  color:#B1304D;
+}
+
+.notice.cdashmm_update{
+  /*background-color:rgba(195, 105, 127, 1);*/
+  border:#B1304D 2px solid;
+}
+
+.notice.cdashmm_update a{
+  font-weight: bold;
+}
+
+.notice.cdashmm_update .notice-dismiss:before{
+  color:#fff;
+}
